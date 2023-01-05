@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header and navigation style */
+.h2{
+    font-weight: 800;
+font-size: 45px
+}
+h2 span{
+    color: #FD6E0A; 
+}
+/* mary and blog 2 row ta niba */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+/* jotuta futa thakba sorajeba */
+nav li{
+    list-style: none;
+  margin-left: 50px;
+  color: #474747;
+ 
+}
+/* [portfolio blog hire] pasapasi niba */
+nav ul{
+    display: flex;
+    align-items: center;
+}
+button.pr{
+    background: #FD6E0A;
+    height: 64px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 38px;
+}
+/* banner style */
+
+.banner{
+    margin: 0px 200px;
+   display: flex;
+   align-items: center;
+}
+.h{
+    color: #474747;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    margin-bottom: 5px;
+}
+.c{
+    color: #181818; 
+    font-size: 35px;
+    margin-bottom: 3px;
+}
+.s{
+    color: #757575;
+    margin-bottom: 10px;
+}
+header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    
+}
+/* about section style */
+
+main{
+    max-width: 1140px;
+   margin: 0 auto;
+}
+.about{
+margin-top: 13opx;
+background-color: #f6ebe3;
+border-radius: 10px;
+padding: 130px 150px;
+
+}
+.section-h{
+    text-align: center;
+margin-bottom: 30px;
+font-size: 35px;
+}
+.section-p{
+color: #757575;
+font-size: 18px;
+margin-bottom: 30px;
+}
+.hay{
+    list-style: none;
+    display: flex;
+ 
+
+}
+/* about down site style */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+   
+}
+.about .info-title{
+   font-size: 20px; 
+   color: #757575;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
